@@ -1,0 +1,35 @@
+html,
+body{
+    height: 100%;
+    font-size: 15px;
+    max-width: 60em;
+    margin: auto;
+}
+.swiper{
+    max-width: 60em;
+    height: 60em;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(157, 238, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    width: 60%;
+    object-fit: cover;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    right: auto;
+}
+h6 {
+    font-size: 1em;
+    vertical-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+ }

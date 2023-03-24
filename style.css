@@ -1,0 +1,72 @@
+html { 
+    font-size: 62.5%;
+    font-family: serif;
+ }
+ body {
+    font-size: 1.8rem;
+    max-width: 40em;
+    margin: auto;
+    color: #000000;
+    background-color: #ffffff;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+ }
+ h1 {
+    font-size: 2.35em;
+ }
+ h2 {
+    font-size: 2em;
+ }
+ h3 {
+    font-size: 1.75em;
+    text-align: center;
+    vertical-align: middle;
+ }
+ h4 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+  }
+ h5 {
+    font-size: 1.25em;
+    text-align: center;
+    vertical-align: middle;
+  }
+ h6 {
+    font-size: 1em;
+    vertical-align: right;
+ }
+ .slider-img { 
+    object-fit: cover; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.nstu-logo
+{
+   object-fit: cover; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    width: 50%;
+}
+select {
+   letter-spacing: inherit;
+   word-spacing: inherit;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+   /* рамка и отступы */
+   border: 0.1em solid;
+   padding: 0 0.2em;
+ }
+ .slider-img
+ {
+   background: #8d5151;
+ }
+ 
