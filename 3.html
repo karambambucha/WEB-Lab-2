@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
  <head>
-    <title>Лабораторная работа № 1.</title>
-    <meta charset="utf-8">
+    <title>Задание 3. Калькулятор вкладов.</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
  </head>
  <body>
     <script src="script.js"></script>
     <body>
-        <form><select id="cmb1">
+        <form style="margin-top: 10%;"><select id="cmb1">
             <option value="">--Вид вклада--</option>
             <option value="1">Пополняемый</option>
             <option value="2">Срочный</option>
@@ -18,7 +18,9 @@
         </select></form>
         <form><input type="number" step="0.01" min="0" placeholder="0,00" id="sumInput"> ₽</form>
         <button type="button" id="sumButton">Рассчитать</button>
-        <h5 id="textInfo"></h5>
+        <h6 id="textInfo">Введите информацию о виде вклада, сроке вклада и сумме вклада</h6>
+        <a href="index.html">Назад</a>
+        <hr>
     </body>
 </body>
 </html>
